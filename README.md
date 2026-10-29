@@ -19,3 +19,17 @@
 - Activation：ReLU、ReLU、Sigmoid、Softmax
 - 使用批次方式計算前向傳播
 - 包含批次 Softmax 與平均 Cross Entropy Error
+
+## Homework 3
+
+檔案：`hw3.ipynb`
+
+- 主題：Fashion-MNIST 服飾分類 DNN
+- 資料集：Fashion-MNIST，共 10 種服飾類別
+- 網路結構：784 → 512 → 256 → 128 → 10
+- Activation：ReLU、Softmax
+- Loss：Categorical Crossentropy
+- Optimizer：Adam
+- 包含資料預處理、模型訓練、Accuracy、Loss、預測結果與 Confusion Matrix
+- 測試資料準確率：約 90.16%
+- 儲存訓練完成的模型
